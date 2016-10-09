@@ -1,0 +1,19 @@
+@-moz-document domain("aeon.co") {
+.social-sharing,
+.social-sharing--buttons,
+.social-hovers__item,
+.header__social-icon,
+.header__newsletter-icon,
+.header__separator.separator,
+.menu__social-wrapper,
+.fb-like.fb_iframe_widget,
+#twitter-widget-1,
+#twitter-widget-2,
+#twitter-widget-3,
+.fa.fa-facebook,
+.support-bar,
+.shortcode-inline-newsletter {
+    display: none !important;
+}
+
+}

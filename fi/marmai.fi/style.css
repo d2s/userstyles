@@ -1,0 +1,10 @@
+@-moz-document domain("www.marmai.fi") {
+.poll-module,
+.social-share,
+.social-share-wide,
+.subscribe-newsletter,
+#disqus_thread,
+.disqus_container {
+    display: none !important;
+}
+}

@@ -1,0 +1,13 @@
+@-moz-document domain("hbr.org") {
+.partner-center.row.clearfix,
+.promo--right.hide-for-small.hide-for-print {
+    display: none !important;
+}
+
+@media print {
+    /* Link URL will be visible in the printed content */
+    a[href^="/"]:after {
+        content: " (https://hbr.org" attr(href) ") ";
+    }
+}
+}

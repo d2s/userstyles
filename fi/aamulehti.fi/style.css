@@ -1,0 +1,21 @@
+@-moz-document domain("aamulehti.fi") {
+.site-header,
+.content-wrapper.container-fluid.nobg-container,
+.ad-container,
+.mainos-fluid-container,
+.ad-container-paraati,
+.plus-ad,
+.brand-logo,
+.sidebar-social,
+.some-icons {
+  display: none !important;
+}
+
+/* Improve visual style for widget headers */
+.topic-item .topic-title,
+.widget .widget-title {
+  padding: 0 !important;
+  background: #ffffff;
+  color: #000;
+}
+}

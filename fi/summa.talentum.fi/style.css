@@ -1,0 +1,6 @@
+@-moz-document domain("summa.talentum.fi") {
+#buy-content-region,
+.teaser-notice {
+    display: none !important;
+}
+}

@@ -1,0 +1,13 @@
+@-moz-document domain("tivi.fi") {
+.poll-module,
+.share-buttons,
+.social-share,
+.social-share-wide,
+.subscribe-newsletter,
+#disqus_thread,
+.disqus_container,
+.section-partner,
+.teaser-partner-blog {
+    display: none !important;
+}
+}

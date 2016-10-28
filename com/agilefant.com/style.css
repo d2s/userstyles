@@ -1,0 +1,8 @@
+@-moz-document domain("agilefant.com") {
+.text_note {
+    font-size: small;
+    line-height: 1.6em;
+    color: #222;
+    max-width: 50em;
+}
+}

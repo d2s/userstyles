@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://www.iltalehti.fi/") {
+@-moz-document url-prefix("http://www.iltalehti.fi/"), url-prefix("http://m.iltalehti.fi/") {
 /* Custom styles for Iltalehti */
 #mainos,
 #jatti,
@@ -76,11 +76,20 @@
 .kehyselem,
 #mp_monster,
 .paivantalous,
-.site-search {
+.site-search,
+.article-share {
   display: none !important; }
 
 #content,
 #alanavi {
   background: transparent; }
+
+
+@media print {
+  aside.site-links,
+  .headline-links {
+    display: none !important;
+  }
+}
 
 }

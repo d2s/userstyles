@@ -146,28 +146,28 @@ ul.theme-list {
 
 
 div.slow-articles {
-  padding: 0px!important;
+  padding: 0!important;
 }
 
 .article-tools-bottom {
-  padding: 0px!important;
-  top: 0px!important;
+  padding: 0!important;
+  top: 0!important;
 }
 
 h2 {
   font-size: 32px!important;
-  letter-spacing: 0px!important;
+  letter-spacing: 0!important;
 }
 
 #article-text #article-text-content p {
   font-family: "Georgia",serif!important;
   font-size: 17px!important;
-  letter-spacing: 0px!important;
+  letter-spacing: 0!important;
 }
 
 .teaser .ingress {
   font-size: 16px!important;
-  letter-spacing: 0px!important;
+  letter-spacing: 0!important;
 }
 
 .comment-btn-group-title {
@@ -297,7 +297,7 @@ body.paywall-premium #video-aside {
 
   /* - Remove whitespace from the bottom of articles */
   #main-content {
-    margin-bottom: 0px!important;
+    margin-bottom: 0!important;
   }
 
 

@@ -5,6 +5,11 @@
 - Clean up visual distractions from barona.fi website.
 - Add darker background color.
 - Make the hero header section more readable.
+- Make front page intro header text readable.
+- Adjust link button styles.
+- Adjust link button hover styles.
+- Modify border color of link buttons.
+- Modify background color of link buttons.
 - Reduce hero header element height.
 - Add padding to the bottom of hero element.
 - Make small text readable.

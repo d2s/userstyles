@@ -4,6 +4,39 @@ body {
     background-color: #ddd;
 }
 
+/* - Make front page intro header text readable.  */
+.fp-intro-wrapper h1,
+.fp-intro-wrapper p,
+.fp-intro-wrapper a,
+.fp-intro-wrapper .link-button a {
+	color: black;
+}
+
+/* - Adjust link button styles. */
+.link-button.outside a {
+	background: #777;
+	border-color: #777;
+    color: #fff;
+    font-weight: normal;
+    /* letter-spacing: 1px; */
+}
+
+/* - Adjust link button hover styles. */
+.link-button.outside a:hover {
+    color: #000;
+    border-color: #000;
+}
+
+
+/* - Modify border color of link buttons. */
+/* - Modify background color of link buttons. */
+.link-button.nega a {
+	border-color: black;
+	background-color: rgba(214,214,214,0.3);
+}
+
+
+
 /* - Make the hero header section more readable. */
 /* - Reduce hero header element height. */
 /* - Add padding to the bottom of hero element. */

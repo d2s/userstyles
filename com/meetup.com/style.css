@@ -1,0 +1,116 @@
+@-moz-document domain("meetup.com") {
+/* -------------------------------------------------------------------------- */
+/* - Adjust global background color. */
+#C_join,
+#C_page,
+#C_nav,
+body,
+html {
+	background-color: #fff !important;
+}
+
+/* - Hide unneeded borders from page elements. */
+.actionMenu-actions,
+.doc-box, .docBox,
+#eventdets,
+.actionMenu-actions>.line-gutters>.unit,
+.actionMenu-actions>.line>.unit,
+.doc-box>.line-gutters>.unit,
+.doc-box>.line>.unit,
+.docBox>.line-gutters>.unit,
+.docBox>.line>.unit,
+#rsvpBoxContainer {
+	border: 0 !important;
+}
+
+
+/* - Reduce padding to make layout more compact. */
+#C_document {
+	padding-left: 0;
+}
+
+/* - Reduce bottom margin to make layout more compact. */
+.actionMenu-actions,
+.doc-box,
+.docBox {
+	margin-bottom: 0;
+}
+
+
+/* - Reduce top padding from individual pages. */
+#C_pageBody {
+	padding-top: 0;
+}
+
+/* - Remove padding from chapter top navigation. */
+#chapter-navigation {
+	padding: 0;
+}
+
+/* - Re-add padding to the top of event details sidebar. */
+#C_metabox {
+  padding-top: 6px;
+}
+
+/* - Remove rounded corners from chapter menu items. */
+.chapter-menu>li>a {
+    border-radius: 0;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* - Switch footer colours to make it less distracting. */
+#mainFooter {
+	background-color: #fff;
+	color: #000;
+}
+
+/* - Switch footer element colours to make it visible again. */
+#mainFooter .text--secondary {
+	color: #000;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* - Replace bright red color with something that hurts eyes less. */
+#member-home-header {
+	background-color: #000;
+}
+
+/* - Adjust top navigation background color. */
+#globalNav {
+	background-color: #eee;
+}
+
+/* - Switch red color from top navigation to black to reduce distractions. */
+#globalNav #ctaLinks .text--red {
+	color: inherit !important;
+}
+
+
+/* - Hide unread count badge number from top of the page.  */
+#unread-count {
+	display: none;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* - Hide CTA (Call to Action) section from the bottom of the page. */
+.mt-two-btn-cta {
+	display: none;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/* - Fix horizontal scrolling bug of the list of privata messages. */
+.convoItem {
+	width: 99%; /* Default was 100%, and it was overflowing. */
+}
+
+/* - Add more whitespace to the edge of timestamp. */
+.convoItem-timestamp {
+	margin-right: 5px;
+}
+
+}

@@ -1,0 +1,46 @@
+@-moz-document domain("barona.fi") {
+/* - Add darker background color. */
+body {
+    background-color: #ddd;
+}
+
+/* - Make the hero header section more readable. */
+/* - Reduce hero header element height. */
+/* - Add padding to the bottom of hero element. */
+section.hero.search-hero {
+    background-image: none !important;
+    background-color: #444;
+    min-height: 0;
+    padding-bottom: 20px;
+}
+
+/* - Make small text readable. */
+/* - Reduce border color brightness. */
+.search-hero .choose-all a,
+.search-hero.filter {
+    font-weight: normal !important;
+    font-size: 16px !important;
+    border: 1px solid #888 !important;
+}
+
+/* - Make category tags readable. */
+.category,
+.tag {
+    color: #fff;
+    background-color: #222;
+    font-weight: normal;
+}
+
+/* - Hide social sharing buttons (Simple Share Buttons Plus). */
+.ssbp-wrap {
+    display: none;
+}
+
+/* - Fix too wide layout positioning for the element. */
+@media screen and (min-width: 974px) {
+    .author-information, .employer-information {
+        right: 0;
+    }
+}
+
+}

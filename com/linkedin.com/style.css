@@ -3,7 +3,9 @@
 #hp-promo-abk-social,
 .feed-update.company-share-article.is-sponsored,
 .feed-update.member-people-follow-member.has-snippets,
+.feed-update.people-follow-recommend.has-snippets,
 .feed-update.people-connect-recommend.has-snippets,
+.feed-update.pulse-recommend-article-rollup.has-snippets,
 .feed-update.many-members-connect-members-rollup.has-snippets,
 .feed-update.lyndaCourse-singleton.has-snippets,
 .feed-update.member-join-group.has-snippets,
@@ -17,11 +19,11 @@
 
 
 
-
 /* - Hide ad containers. */
 #topTextAd,
 #ad-right-top,
 .wvmp-upsell,
+#right-rail-upsell-below,
 #ad-container,
 .text-ad-container,
 #text-ad-container,
@@ -37,7 +39,7 @@
 
 
 /* - Clean up sidebar from unneeded page elements. */
-#sidebar-footer-container .bottom.copyright {
+#sidebar-footer-container {
 	display: none;
 }
 
@@ -62,6 +64,52 @@ a[href*="/premium/products"] {
 /* - Hide ‘People you might know” widget from sidebar. */
 #pymk-container {
 	display: none;
+}
+
+/* - Reduce whitespace from job postings. */
+.content-container > .container {
+	margin-top: 10px !important;
+}
+
+/* - Expand job description automatically. */
+.description-module.additional-details-shown {
+	height: auto !important;
+}
+
+/* - Hide ‘Read full job description’ button. */
+#job-details-reveal {
+    display: none;
+}
+
+/* - Hide social sharing buttons. */
+#neo-share-button {
+    display: none;
+}
+
+
+/* - Hide header background image. */
+#hero-image {
+	display: none;
+}
+
+
+/* - Adjust page content width. */
+#main {
+	width: 100%;
+}
+
+/*
+#main.share-box-buttons .left-container .content {}
+*/
+
+/* - Improve readability of the feed. */
+.feed-update .headline {
+    font-size: 16px;
+}
+
+/* - Make things readable. */
+em {
+	font-style: normal;
 }
 
 

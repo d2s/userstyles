@@ -1,5 +1,7 @@
 # theglobeandmail cleanup
 
+## Description
+
 - Increase article text size to make it readable.
 - Reduce visual distractions from theglobeandmail.com website.
   - Collapse empty elements.

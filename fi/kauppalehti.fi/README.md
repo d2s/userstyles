@@ -1,5 +1,7 @@
 # Kauppalehti cleanup
 
+## Description
+
 - Reduce visual distractions from kauppalehti.fi website.
   - Hide CTA / article promotion elements.
   - Hide promotion elements of the other publications of Alma.

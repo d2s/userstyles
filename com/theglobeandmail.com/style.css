@@ -1,0 +1,41 @@
+@-moz-document domain("theglobeandmail.com") {
+/* - Increase article text size to make it readable. */
+.hentry p,
+.hentry ul,
+.hentry ol {
+    font-size: 16px !important;
+}
+
+/* - Collapse empty elements. */
+.widget_ad {
+	display: none;
+}
+
+/* - Hide CTA elements. */
+#topSubscribeBanner {
+	display: none;
+}
+
+/* - Hide sidebar widget elements. */
+.secondary .ucm,
+.secondary .slider,
+.secondary .widget_stories {
+	display: none;
+}
+
+/* - Hide Flash video widgets under articles. */
+.widget.video.asfrelbodybottom {
+	display: none;
+}
+
+/* - Hide recommended articles widget. */
+section.recommenderBlock {
+	display: none;
+}
+
+/* - Hide social sharing widgets. */
+#footer_socialmedia {
+	display: none;
+}
+
+}

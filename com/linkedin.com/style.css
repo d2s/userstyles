@@ -1,0 +1,68 @@
+@-moz-document domain("linkedin.com") {
+/* - Clean up front page feed updates. */
+#hp-promo-abk-social,
+.feed-update.company-share-article.is-sponsored,
+.feed-update.member-people-follow-member.has-snippets,
+.feed-update.people-connect-recommend.has-snippets,
+.feed-update.many-members-connect-members-rollup.has-snippets,
+.feed-update.lyndaCourse-singleton.has-snippets,
+.feed-update.member-join-group.has-snippets,
+.feed-update.member-like-poncho-post.has-snippets,
+.feed-update.member-like-share.has-snippets,
+.feed-update.member-like-discussion.has-snippets,
+.feed-update.member-post-discussion.has-snippets,
+.feed-update.member-comment-share.has-snippets {
+	display: none;
+}
+
+
+
+
+/* - Hide ad containers. */
+#topTextAd,
+#ad-right-top,
+.wvmp-upsell,
+#ad-container,
+.text-ad-container,
+#text-ad-container,
+#course-recommendations,
+.footer-upgrade-link {
+	display: none !important;
+}
+
+/* - Hide ‘recommended users’ CTA area. */
+.engagement-list {
+	display: none !important;
+}
+
+
+/* - Clean up sidebar from unneeded page elements. */
+#sidebar-footer-container .bottom.copyright {
+	display: none;
+}
+
+/* - Hide links to the products page. */
+a[href*="/premium/products"] {
+	display: none !important;
+}
+
+
+/* - Hide profile strength indicator from sidebar. */
+.insights .strength {
+	display: none;
+}
+
+
+/* - Make width of contacts list page wider. */
+#contact-list-container {
+	width: 100%;
+}
+
+
+/* - Hide ‘People you might know” widget from sidebar. */
+#pymk-container {
+	display: none;
+}
+
+
+}

@@ -3,7 +3,7 @@
 ## Description
 
 - Increase article text size to improve readability.
-- Reduce visual distractions from theglobeandmail.com website.
+- Reduce visual distractions from express.co.uk website.
   - Hide social media sharing buttons.
   - Hide sidebar elements.
   - Hide sidebar completelely.

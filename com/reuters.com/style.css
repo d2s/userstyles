@@ -1,0 +1,46 @@
+@-moz-document domain("reuters.com") {
+/* - Hide social media sharing buttons. */
+.util-social,
+#section-follow-buttons,
+.core-share {
+	display: none !important;
+}
+
+/* - Hide ad related elements. */
+a[href*="http://popup.taboola.com/"] {
+	display: none !important;
+}
+
+/* - Hide sidebar. */
+.column2.col.col-4 {
+	display: none;
+}
+
+/* - Reduce max page width. */
+.wrap,
+.container {
+    width: 90%;
+}
+
+/* - Increase width of the article contents. */
+.column1.col.col-10 {
+	width: 90%;
+}
+
+/* - Increase article text width. */
+#article-text {
+	width: 90%;
+}
+
+/* - Increase article text size. */
+#article-text p {
+	font-size: 2em;
+    line-height: 1.4em;
+}
+
+/* - Hide related content elements from article. */
+.related-content {
+	display: none;
+}
+
+}

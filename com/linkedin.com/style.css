@@ -3,6 +3,7 @@
 #hp-promo-abk-social,
 .feed-update.company-share-article.is-sponsored,
 .feed-update.member-people-follow-member.has-snippets,
+.feed-update.member-follow-company.has-snippets,
 .feed-update.people-follow-recommend.has-snippets,
 .feed-update.people-connect-recommend.has-snippets,
 .feed-update.pulse-recommend-article-rollup.has-snippets,
@@ -111,6 +112,5 @@ a[href*="/premium/products"] {
 em {
 	font-style: normal;
 }
-
 
 }

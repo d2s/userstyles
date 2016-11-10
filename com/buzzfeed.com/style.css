@@ -8,15 +8,8 @@
 }
 
 /* - Reduce opacity of the trending badge to reduce distractions. */
-/* - Reduce opacity of header image navigation to reduce distractions. */
-.trending-badge,
-#new-header-hot-nav {
+.trending-badge {
 	opacity: 0.2;
-}
-
-/* - Increase opacity of header image navigation when hovering it with mouse cursor. */
-#new-header-hot-nav:hover {
-	opacity: 1;
 }
 
 /* - Reduce page header size. */
@@ -30,6 +23,7 @@
 }
 
 /* - Hide CTA elements */
+#new-header-hot-nav,
 #next_on,
 .lower-infinite-content {
 	display: none;

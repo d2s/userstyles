@@ -2,7 +2,7 @@
 /* - Increase text size of the articles to make it readable. */
 p.ap-story-p {
 	font-size: 20px;
-    line-height: 26px;
+	line-height: 26px;
 }
 
 /* - Hide CTA elements from sidebar. */

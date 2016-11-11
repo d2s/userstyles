@@ -1,0 +1,15 @@
+@-moz-document domain("buffer.com") {
+/* - Hide promotional elements from the header. */
+nav .go-awesome {
+	display: none;
+}
+
+/* - Hide promotional elements from the footer. */
+footer a[href*="itunes.apple.com"],
+footer a[href*="play.google.com"],
+footer iframe[src*="facebook.com"],
+footer iframe[src*="twitter.com"] {
+	display: none;
+}
+
+}

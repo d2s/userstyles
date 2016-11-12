@@ -1,0 +1,22 @@
+@-moz-document domain("www.washingtonpost.com") {
+/* - Hide social sharing buttons. */
+.pb-f-sharebars-top-share-bar,
+.pb-f-page-share-bar {
+	display: none !important;
+}
+
+
+/* - Hide empty ad containers. */
+.pb-f-ad-leaderboard {
+	display: none !important;
+}
+
+@media only screen and (min-width: 768px) {
+
+.pb-f-ad-leaderboard {
+	display: none !important;
+}
+
+}
+
+}

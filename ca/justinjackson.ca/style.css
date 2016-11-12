@@ -1,0 +1,47 @@
+@-moz-document domain("justinjackson.ca") {
+/* - Increase header line height to make text more readable. */
+h2 {
+    line-height: 1.6em;
+}
+
+/* - Increase font size to make text more readable. */
+/* - Reduce line height to make text more readable. */
+p,
+article ul li,
+article ol li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+article {
+    padding-bottom: 10px;
+}
+
+/* - Add divider to the bottom of article. */
+.menu-footer-container {
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+}
+
+/* - Hide social sharing buttons. */
+.sharedaddy {
+    display: none;
+}
+
+
+/* - Increase padding for larger screens. */
+body {
+    padding: 2em 6em;
+}
+
+
+/* - Reduce padding on smaller screens. */
+@media screen and (max-width: 800px) {
+
+body {
+    padding: 2em 0;
+}
+
+}
+
+}

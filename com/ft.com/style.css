@@ -1,0 +1,8 @@
+@-moz-document domain("www.ft.com") {
+/* - Hide empty ad containers. */
+.o-ads,
+.above-header-advert {
+	display: none;
+}
+
+}

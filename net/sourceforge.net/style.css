@@ -1,0 +1,34 @@
+@-moz-document domain("sourceforge.net") {
+/* - Hide irritating CTA elements. */
+#nav-site a[href*="deals.sourceforge.net"],
+#site-sec-header,
+#newsletter-floating,
+.psp_newsletter_subscribe,
+a#follow-action {
+    display: none;
+}
+
+/* - Add whitespace to the top of footer. */
+#site-footer {
+    margin-top: 5em;
+}
+
+/* - Improve readability of plain text release notes. */
+.content.format-plaintext {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/* - Reduce distractions from elements. */
+#sidebar aside.sidebar-widget header,
+#files-sidebar aside.sidebar-widget header {
+    background: #fff;
+    border-color: #ccc;
+}
+
+#sidebar aside.sidebar-widget h3,
+#files-sidebar aside.sidebar-widget h3 {
+    color: #444;
+}
+
+}

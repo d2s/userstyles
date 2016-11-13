@@ -2,7 +2,7 @@
 
 /* - Adjust events calendar width to the sidebar width. */
 iframe[src*="https://www.google.com/calendar/embed"] {
-	width: 100%;
+    width: 100%;
     margin-top:5px;
     margin-bottom: 6px;
 }

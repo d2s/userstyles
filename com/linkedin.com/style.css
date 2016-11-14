@@ -73,7 +73,7 @@ a[href*="/premium/products"] {
 }
 
 /* - Expand job description automatically. */
-.description-module.additional-details-shown {
+.description-module {
 	height: auto !important;
 }
 

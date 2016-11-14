@@ -1,0 +1,20 @@
+@-moz-document domain("teosto.fi") {
+
+/* - Improve readability of code examples. */
+article .example-response,
+article .example-request {
+    font-size: 14px;
+}
+
+
+/* - Reduce maximum width of primary text. */
+p {
+    max-width: 46em;
+}
+
+/* - Increase size of top navigation for better readability. */
+.navlinks {
+	font-size: 16px;
+}
+
+}

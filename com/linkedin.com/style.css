@@ -1,4 +1,44 @@
 @-moz-document domain("linkedin.com") {
+
+/* - Adjust site background color. */
+body {
+  background: #eee;
+}
+
+/* - Adjust profile card header. */
+.profile-top-card.top-card {
+  margin-bottom: 0;
+}
+
+/* - Adjust profile content areas. */
+.profile-background,
+#connections.profile-connections,
+#groups-container,
+#groups,
+#following-container,
+.profile-following,
+#aux {
+  margin: 0;
+  border-top: 1px solid #eee;
+}
+
+/* - Reduce top margin of profile header card. */
+.profile-card.vcard .profile-picture,
+.profile-card.vcard .profile-overview {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+/* - Reduce text content height of profile header card. */
+.profile-card .profile-overview-content {
+  min-height: 130px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+
+
+
 /* - Clean up front page feed updates. */
 #hp-promo-abk-social,
 .feed-update.company-share-article.is-sponsored,
@@ -111,6 +151,42 @@ a[href*="/premium/products"] {
 /* - Make things readable. */
 em {
 	font-style: normal;
+}
+
+/* - Move content area so that it would not get hidden by the top menu. */
+div#wrapper {
+    margin-top: 80px;
+}
+
+
+/* - Adjust profile page width. */
+/* - Adjust profile sidebar width. */
+div#profile,
+div#aux {
+	width: 100%
+}
+
+/* - Adjust profile sidebar widgets. */
+.insights-browse-map li,
+.insights-ctx-profiles li {
+    display: inline-block;
+    min-width: 350px;
+}
+
+
+@media print {
+
+  /* - Hide top navigation for printed pages. */
+  #header {
+    display: none;
+  }
+
+
+  /* - Adjust content area top margin for printed pages. */
+  div#wrapper {
+    margin-top: 30px;
+  }
+
 }
 
 }

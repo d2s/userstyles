@@ -2,7 +2,7 @@
 
 ## Description
 
-- Improve readability
+- Improve readability.
   - Increase article content width.
   - Reduce article content text width.
   - Increase article text size and line height.

@@ -1,0 +1,22 @@
+@-moz-document url-prefix("https://facebook.github.io/react/") {
+
+/* - Increase text size to improve readability. */
+/* - Adjust line-height to improve readability. */
+p {
+  line-height: 1.35;
+  font-size: 19px;
+}
+
+/* - Add more margin to top of headers in articles. */
+.documentationContent .inner-content h3,
+.post h3 {
+  margin-top: 1.2em;
+}
+
+
+/* - Hide social sharing widgets. */
+.fb-like.fb_iframe_widget {
+  display: none;
+}
+
+}

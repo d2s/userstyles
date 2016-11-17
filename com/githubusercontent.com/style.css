@@ -1,0 +1,22 @@
+@-moz-document url-prefix("https://raw.githubusercontent.com/") {
+
+/* - Make text readable. */
+/*   - Increase font size. */
+/*   - Increase line height. */
+/*   - Reduce max width of the text content. */
+/*   - Add more page margin to the sides to improve readability. */
+body {
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 44em;
+  margin: 2em 4em;
+}
+
+/* - Align text to both sides of the pre container. */
+/* - Change font to sans-serif to make it easier to read. */
+pre {
+  text-align: justify;
+  font-family: Helvetica, sans-serif !important;
+}
+
+}

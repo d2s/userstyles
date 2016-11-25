@@ -164,5 +164,5 @@ Vainu brand website improvements
 
 ## Version history
 
-### Version 0.1 (2016-11-35)
+### Version 0.1 (2016-11-25)
 - First release.

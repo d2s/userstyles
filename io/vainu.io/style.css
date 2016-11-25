@@ -1,0 +1,540 @@
+@-moz-document domain("dashboard.vainu.io") {
+
+
+/* Map top buttons: */
+/*   - Make icons visible again. */
+.dashboard-wrapper .dashboard-nav .button {
+  color: #888;
+}
+
+
+/* Overlay dialog: */
+/*   - Make text visible again. */
+/*     - Set darker color. */
+.overlay-info .message .message-wrapper p {
+  color: #000;
+}
+
+
+/* Sidebar headers: */
+/*   - Make text visible again. */
+/*     - Increase font size. */
+/*     - Set darker color. */
+.dashboard-wrapper .sidebar .title {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Sidebar list items: */
+/*   - Make text visible again. */
+/*     - Increase font size. */
+/*     - Set darker color. */
+.dashboard-wrapper .sidebar .data-wrapper .data-list .industry {
+  color: #111;
+  font-size: 14px;
+}
+
+/*   - Make text visible again. */
+/*     - Set darker color. */
+.overlay-info .message .message-wrapper b {
+  color: #000;
+}
+
+
+/* - Leaflet map element customizations */
+/*   - Set darker color. */
+.dashboard-wrapper .leaflet-container {
+  color: #000;
+}
+
+/* - Increase font size of the map marker details. */
+.dashboard-wrapper .leaflet-popup-content-wrapper .marker-data li {
+  font-size: 16px;
+}
+
+/* - Adjust popup content text title styles. */
+/*   - Increase font weight to have better visual hierarcy. */
+/*   - Increase font size. */
+/*   - Increase letter spacing to make text more readable. */
+/*   - Set darker text color to make headers easier to read. */
+.dashboard-wrapper .leaflet-popup-content-wrapper .marker-data .title {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+  color: #333;
+}
+
+
+/* - Leaflet popup content: */
+/*   - Increase link color darkness. */
+.leaflet-container a {
+  color: #00435e;
+}
+
+
+/* - Leaflet popup content window adjustments. */
+/*   - Increase border radius. */
+/*   - Increase box shadow size and make it darker. */
+/*   - Make border color darker. */
+.dashboard-wrapper .leaflet-popup-content-wrapper {
+  border-radius: 2px;
+  box-shadow: 0 2px 10px #bbb;
+  border-color: #bbb;
+}
+
+
+
+
+/* - Reduce distractions from bottom corner “Read more” link. */
+/*   - Adjust background color to grayscale to reduce distractions from  */
+/*   - Change font style to normal, to make it more readable. */
+.dashboard-wrapper .sidebar .info-row {
+  background: #777;
+  font-style: normal;
+  color: #fff;
+}
+
+/* - Add hover style to the "Read more" link to make it more readable. */
+.dashboard-wrapper .sidebar .info-row:hover,
+.dashboard-wrapper .sidebar .info-row:active,
+.dashboard-wrapper .sidebar .info-row:focus {
+  background: #222;
+  font-style: italic;
+  color: #fff;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+/* - Fix document height bug that makes html element scrollable. */
+body,
+html {
+  height: 100vh;
+}
+
+}
+
+}
+
+@-moz-document domain("search.vainu.io") {
+
+/* Application wide styles: */
+/* - Make text readable. */
+/*   - Increase font size. */
+/*   - Adjust text color to black. */
+body {
+  font-size: 16px;
+  color: #000;
+}
+
+
+/* Links */
+/* - Make links readable. */
+/*   - Adjust text color to darker shade. */
+a {
+  color: #005a9a;
+  text-decoration: none;
+}
+
+/* - Add hover underline style to links for improved accessibility. */
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* Front page search form field */
+/* - Increase border radius. */
+/* - Increase box shadow visibility. */
+.prospect-multiselect .ic-tokens {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 hsla(0,0%,59%,.8);
+  font-size: 14px;
+}
+
+
+
+/* Company profile pages: */
+/* - Make text readable. */
+/*   - Increase font size. */
+/*   - Adjust text color to black. */
+.company-profile .left-panel .left-panel-wrapper .profile-title .name {
+  color: #000;
+  font-size: 24px;
+}
+
+/* Company profile pages: */
+/* - Make text readable. */
+/*   - Increase font size. */
+/*   - Adjust text color to black. */
+.company-profile h4 {
+  font-size: 20px;
+  color: #46525c;
+}
+
+/* - Make text readable. */
+/*   - Increase font size. */
+/*   - Adjust text color to make it more visible. */
+.company-profile ul.list-info .left {
+  color: #46525c;
+}
+
+/* - Make text readable. */
+/*   - Adjust text color to make it more visible. */
+/*   - Increase font size. */
+/*   - Reduce font weight. */
+.industry,
+.company-profile .left-panel .left-panel-wrapper .profile-title .industry {
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* - Make text readable. */
+/*   - Adjust text color to make it more visible. */
+/*   - Increase font size and line height. */
+/*   - Switch font style to normal from italic. */
+/*   - Increase top and bottom padding to make things more calm. */
+.company-profile .left-panel .left-panel-wrapper .description {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  margin: 15px auto;
+}
+
+
+
+/* - Make text readable. */
+/*   - Increase font size and line height. */
+.company-profile .left-panel .left-panel-wrapper .wrapper-data .number {
+  font-size: 18px;
+}
+
+/* - Make text readable. */
+/*   - Adjust text color to make it more visible. */
+/*   - Transform text to uppercase. */
+.company-profile .left-panel .left-panel-wrapper .wrapper-data .title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+}
+
+
+
+/* - Add more whitespace with padding to the left side to avoid too tight layout. */
+.company-profile ul.list-info .right {
+  color: #222;
+  padding-left: 5px;
+}
+
+
+/* Company details - Financials */
+/* - Increase title width to make it align better with other titles. */
+.financial-summary .financial-summary-title {
+  min-width: 120px;
+  max-width: 20%;
+  text-transform: uppercase;
+}
+
+/* - Add padding to left side to make things more readable. */
+.financial-summary .financial-summary-row > span,
+.financial-summary .summary-turnover > span {
+  padding-left: 8px;
+}
+
+
+/* Company middle navigation */
+/* - Make text darker to make it readable. */
+/* - Add background color to active navigation item. */
+/* - Add border color to active navigation item. */
+.company-profile .middle-panel .nav ul li.active,
+.company-profile .middle-panel .nav ul li.active:hover {
+  color: #005a9a;
+  background-color: #eee;
+  border: 1px #ddd solid;
+  border-bottom: 2px solid #005a9a;
+}
+
+/* - Make text darker to make it readable. */
+/* - Increase letter spacing to make small text readable. */
+.company-profile .middle-panel .nav ul li {
+  color: #333;
+  letter-spacing: 0.01em;
+}
+
+
+/* Company profile */
+/* - Increase text size to make it more readable. */
+/* - Reduce font weight to make it less bold */
+/* - Make text darker to make it readable. */
+.profile-social-media .some-likes .info,
+.web-tech .some-likes .info {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* - Make text darker to make it readable. */
+.company-profile #digitalization-index .digitalization-wrapper p {
+  color: #333;
+}
+
+/* - Make text more visible when there is no data financial available. */
+.company-profile .no-financials {
+  color: #aaa;
+}
+
+
+/* Blurred elements */
+/* - Add left padding to avoid having them too close to previous text. */
+/* - Adjust text color and text shadow to make things look better. */
+.blurred {
+  color: #ccc;
+  text-shadow: 0 0 5px rgba(40,40,40,.4);
+  padding-left: 2px;
+}
+
+
+
+
+
+/* Bottom navigation */
+/* - Switch font style to normal in the bottom navigation. */
+.bottom {
+  font-style: normal;
+}
+
+/* - Make links darker in the bottom navigation. */
+.links.bottom a {
+  color: #333;
+}
+
+
+
+
+
+/* Hubspot overlay sales widget. */
+/* - Make text darker to make it readable. */
+/* - Add bottom padding to have more balanced layout. */
+#hubspot .title {
+  color: #444;
+  padding-bottom: 4px;
+}
+
+/* - Make text darker to make it readable. */
+/* - Increase font size and line height to make it readable. */
+#hubspot .para {
+  color: #111;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+/* - Increase form error message visibility. */
+/*   - Increase font weight. */
+/*   - Increase font size. */
+/*   - Switch font style to normal from italic. */
+/*   - Adjust text color to make it readable. */
+#hubspot .hs-error-msgs label {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  color: #bf1400;
+}
+
+/* - Make text darker to make it readable. */
+#hubspot .disclaimer {
+  font-size: 14px;
+  color: #555;
+  font-style: normal;
+}
+
+
+/* - Increase font weight. */
+/* - Increase letter spacing to make text more readable. */
+/* - Make button background darker to increase strenght of the CTA element. */
+#hubspot input[type=submit] {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  background: #333;
+  color: #fff;
+  padding: 0 12px;
+}
+
+
+/* - Make modal close button visible. */
+.close {
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+
+/* - Add hover styles to modal close button to make it more accessible. */
+.close:hover,
+.close:active,
+.close:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+
+
+
+}
+
+@-moz-document url-prefix("https://www.vainu.io/fi/"), url-prefix("https://www.vainu.io/en/"), url-prefix("https://www.vainu.io/se/"), url-prefix("https://www.vainu.io/nl/") {
+
+/* Vainu brand website improvements */
+
+/* Website wide styles: */
+/* - Make text readable. */
+/*   - Increase font size. */
+/*   - Adjust text color to black. */
+body {
+  font-size: 16px;
+  color: #000;
+}
+
+
+/* Links */
+/* - Make links readable. */
+/*   - Adjust text color to darker shade. */
+a {
+  color: #005a9a;
+  text-decoration: none;
+}
+
+/* - Add hover underline style to links for improved accessibility. */
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* - Improve readability of white text on top of an image. */
+/*   - Add stronger text shadow to header to make it more visible. */
+.intro .slogan h1,
+.product-top h1,
+.smartbound-top h1,
+.about-us-top h1,
+.career-top h1,
+.developers-top h1 {
+  text-shadow: -1px 0 20px #333;
+}
+
+/* - Improve readability of white text on top of an image. */
+/*   - Add stronger text shadow to header to make it more visible. */
+.module h3 {
+  text-shadow: 1px 1px 20px #4a4a4a !important;
+}
+
+
+
+/* - Improve readability of white text on top of an image. */
+/*   - Add text shadow to paragraph to make it more visible. */
+.intro .slogan p,
+.module .para {
+  text-shadow: -1px 0 10px #111;
+}
+
+
+
+/* Top navigation */
+/* - Improve readability of white text on top of an image. */
+/*   - Add text shadow to navigation links to make them readable. */
+.nav-light .navbar-custom ul.nav li a {
+  text-shadow: -1px 0 20px #333;
+}
+
+/* - Disable text shadow when scrolling down on a page. */
+.nav-light .top-nav-collapse.navbar-custom ul.nav li a {
+  text-shadow: none;
+}
+
+
+/* - Login button adjustments: */
+/*   - Hover style:  */
+/*     - Increase background strenght of the button.  */
+/*     - Switch text color when hovering the button.  */
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  background-color: rgba(255,255,255,.3);
+  color: #000 !important;
+}
+
+
+
+
+/* - Switch from italic to normal font style to improve readability. */
+.section-heading i,
+.section-heading em,
+p.para,
+p.para i,
+.material-para {
+  font-style: normal;
+}
+
+
+
+/* Use cases section + */
+/* Testimonials section */
+/* - Make text readable */
+/*   - Darker text color. */
+/*   - Larger font size. */
+/*   - Larger font weight. */
+/*   - Change font style from italic to normal. */
+.use-case-list .right-box p,
+.testimonials ul li p {
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* - Make text readable */
+/*   - Darker text color. */
+.use-case-list h3 {
+  color: #444;
+}
+
+
+
+/* - Section headers */
+/*   - Reduce max width of text paragraphs to make them easier to read. */
+/*   - Add automatic side margins to the text paragraph to make it centered.  */
+.section-heading p {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+
+
+/* - Footer adjustments */
+/*   - Add text shadow to make small white text readable on the light background color. */
+.footer-links .new,
+.footer-links .open {
+  font-size: 12px;
+  color: #fff;
+  text-shadow: -1px 0 10px #111;
+}
+
+/* - Adjust element background color to darker shade. */
+.footer-links .open {
+  background: #02af8c;
+}
+
+
+
+
+
+/* - Add box shadow to live chat CTA button to make it more visible. */
+div#giosg_chat_now_button {
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+
+}

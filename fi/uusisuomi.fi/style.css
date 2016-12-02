@@ -1,0 +1,45 @@
+@-moz-document domain("puheenvuoro.uusisuomi.fi") {
+
+/* - Improve readability: */
+/*   - Increase font size. */
+/*   - Increase line height for the main text content. */
+/*   - Reduce text content maximum width. */
+/*   - Align text content to both sides of the text container. */
+#main-content .content,
+.comment-count-link p,
+.comment-author span,
+.comment-author time,
+.comment-body p {
+  font-size: 16px !important;
+  line-height: 1.45;
+  max-width: 38em;
+  text-align: justify;
+}
+
+
+/* - Reduce visual distractions: change red text color to black. */
+.login-tools .login {
+	color: #000 !important;
+}
+
+
+/* - Hide social sharing elements. */
+.node-top-sharing-tools,
+.node-tools-content {
+	display: none;
+}
+
+
+/* - Hide ad content. */
+#block-views-Yritysblogi-block_1 {
+	display: none;
+}
+
+
+/* Page footer */
+/* - Adjust background color. */
+#footer .container-25 {
+  background: #eee;
+}
+
+}

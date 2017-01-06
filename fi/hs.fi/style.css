@@ -281,9 +281,14 @@ body.paywall-premium #video-aside {
 
 /* Print stylesheet for removed unneeded elements from printed articles. */
 @media print {
+
   #article-navigation-container,
   .hs45 #navigation-area #sticky-navigation-container.fixed,
-  .scalable-article-right-block {
+  .scalable-article-right-block,
+  .main-header,
+  .hs6-ticker,
+  .article-middle,
+  .article-bottom {
     display: none!important;
   }
 
@@ -292,6 +297,24 @@ body.paywall-premium #video-aside {
   #navigation-area,
   #narrow-recommended-articles {
     display: none!important;
+  }
+
+  /* - Change page width to automatic width. */
+  .wrapper {
+    width: auto !important;
+  }
+
+  /* - Change page maximum width to 100% width. */
+  .header-wrapper,
+  .content-wrapper,
+  .main-footer {
+    max-width: 100% !important;
+  }
+
+  /* - Increase article font size and line height to improve readability. */
+  article p {
+    font-size: 16px;
+    line-height: 25px;
   }
 
 

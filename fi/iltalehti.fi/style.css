@@ -1,5 +1,8 @@
-@-moz-document url-prefix("http://www.iltalehti.fi/"), url-prefix("http://m.iltalehti.fi/") {
-/* Custom styles for Iltalehti */
+@-moz-document url-prefix("http://www.iltalehti.fi/") {
+
+/* Custom styles for Iltalehti website */
+
+/* - Hide unneeded page elements. */
 #mainos,
 #jatti,
 #oikeamainos,
@@ -77,19 +80,66 @@
 #mp_monster,
 .paivantalous,
 .site-search,
-.article-share {
-  display: none !important; }
+#telkku-crnosto-wrapper {
+  display: none !important;
+}
 
 #content,
 #alanavi {
-  background: transparent; }
+  background: transparent;
+}
 
 
+
+
+/* - Print styles ------------------------------------------------- */
 @media print {
-  aside.site-links,
-  .headline-links {
+
+  /* - Print styles: Increase text size and line height to make article more readable. */
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* - Print styles: Increase text paragraph margin to make article more readable. */
+  .article-body p {
+    margin-top: 1em;
+  }
+
+  /* - Print styles: Increase text paragraph margin to make article more readable. */
+  .article .author {
+    margin-top: 1.5em;
+  }
+
+  /* - Print styles: Change page width to scale based on the screen size. */
+  #container,
+  #content {
+    width: auto;
+  }
+
+
+
+  /* - Print styles: Hide unneeded page elements for cleaner printed output. */
+  .top-bar,
+  #container_navi,
+  #container_vasen,
+  #container_oikea,
+  #js-recommended-toaster,
+  .recommended-toaster,
+  #tuoreimmat,
+  .vaakaviiva,
+  .fb-comments__outer-container {
     display: none !important;
   }
+
+  /* - Print styles: Remove unneeded margin and border from the text container. */
+  #container_keski  {
+    padding: 30px 40px !important;
+    margin: 0;
+    border: none;
+    width: auto;
+  }
+
 }
 
 }

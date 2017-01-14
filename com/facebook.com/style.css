@@ -1,0 +1,23 @@
+@-moz-document domain("facebook.com") {
+
+/* - Hide language chooser sidebar element. */
+._4-u2._19ah._2ph_._4-u8 {
+    display: none !important;
+}
+
+
+/* - Hide copyright details + links sidebar element. */
+._45mq {
+    display: none !important;
+}
+
+}
+
+@-moz-document url-prefix("https://www.facebook.com/messages/") {
+
+/* - Hide "Get App" messages from the web-based Messenger chat section. */
+._s15 {
+    display: none !important;
+}
+
+}

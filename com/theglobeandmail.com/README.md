@@ -11,8 +11,8 @@
   - Hide recommended articles widget.
   - Hide social sharing widgets.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-07)
+
 - First release.

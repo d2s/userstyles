@@ -8,8 +8,8 @@
   - Hide social media sharing buttons.
   - Hide advertising content sections.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-07)
+
 - First release.

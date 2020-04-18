@@ -7,8 +7,8 @@
   - Increase article width.
   - Reduce article width on a printed page version.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-11)
+
 - First release.

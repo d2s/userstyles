@@ -11,8 +11,8 @@
 
 Also available from [userstyles.org](https://userstyles.org/styles/123343/paulgraham-com).
 
-
 ## Version history
 
 ### Version 0.1 (2016-01-20)
+
 - First release.

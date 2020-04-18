@@ -18,8 +18,8 @@
 - Hide social sharing buttons (Simple Share Buttons Plus).
 - Fix too wide layout positioning for the element.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-04)
+
 - First release.

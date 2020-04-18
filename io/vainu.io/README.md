@@ -4,7 +4,6 @@
 
 Improving readability and accessibility of the service.
 
-
 ### dashboard.vainu.io
 
 - Map top buttons:
@@ -40,8 +39,6 @@ Improving readability and accessibility of the service.
 - Add hover style to the "Read more" link to make it more readable.
 - Fix document height bug that makes html element scrollable.
 
-
-
 ### search.vainu.io
 
 - Application wide styles:
@@ -56,10 +53,7 @@ Improving readability and accessibility of the service.
   - Increase border radius.
   - Increase box shadow visibility.
 - Company profile pages:
-  - Make text readable.
-    - Increase font size.
-    - Adjust text color to black.
-Company profile pages:
+  - Make text readable. - Increase font size. - Adjust text color to black. Company profile pages:
   - Make text readable.
     - Increase font size.
     - Adjust text color to black.
@@ -113,8 +107,6 @@ Company profile pages:
   - Make modal close button visible.
   - Add hover styles to modal close button to make it more accessible.
 
-
-
 ### vainu.io marketing website
 
 Vainu brand website improvements
@@ -122,8 +114,7 @@ Vainu brand website improvements
 - Website wide styles:
   - Make text readable.
     - Increase font size.
-    - Adjust text color to black.
-  Links
+    - Adjust text color to black. Links
   - Make links readable.
     - Adjust text color to darker shade.
   - Add hover underline style to links for improved accessibility.
@@ -155,14 +146,8 @@ Vainu brand website improvements
 - Adjust element background color to darker shade.
 - Add box shadow to live chat CTA button to make it more visible.
 
-
-
-
-
-
-
-
 ## Version history
 
 ### Version 0.1 (2016-11-25)
+
 - First release.

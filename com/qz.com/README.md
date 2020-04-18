@@ -8,8 +8,8 @@
 - Reduce visual distractions from the website.
   - Hide social sharing buttons.
 
-
 ## Version history
 
 ### Version 0.1 (2016-12-30)
+
 - First release.

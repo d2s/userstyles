@@ -11,8 +11,8 @@ React docs style improvements
 - Reduce distractions:
   - Hide social sharing widgets.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-16)
+
 - First release.

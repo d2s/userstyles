@@ -13,8 +13,8 @@
   - Reduce max page width.
   - Hide related content elements from article.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-07)
+
 - First release.

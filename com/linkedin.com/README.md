@@ -33,10 +33,10 @@
 
 Also available from [userstyles.org](https://userstyles.org/styles/134890/linkedin-cleanup).
 
-
 ## Version history
 
 ### Version 0.2 (2016-11-16)
+
 - Improve styles.
   - Adjust site background color.
   - Adjust profile card header.
@@ -51,4 +51,5 @@ Also available from [userstyles.org](https://userstyles.org/styles/134890/linked
   - Adjust content area top margin for printed pages.
 
 ### Version 0.1 (2016-11-07)
+
 - First release.

@@ -14,8 +14,8 @@
   - Adjust footer background color.
   - Reduce distractions from printed articles.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-10)
+
 - First release.

@@ -1,5 +1,5 @@
 # userstyles
 
-These can be used with Stylish browser extension.
+These can be used with [Stylus](https://github.com/openstyles/stylus) browser extension.
 
-Also available from [Userstyles.org profile](https://userstyles.org/users/185248).
+Some of the older styles also available from [Userstyles.org profile](https://userstyles.org/users/185248).

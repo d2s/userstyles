@@ -7,8 +7,8 @@
   - Hide news carousel from printed pages.
   - Hide "Subscribe to comments" link from printed pages.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-13)
+
 - First release.

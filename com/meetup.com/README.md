@@ -25,11 +25,10 @@ Clean up visual distractions from meetup.com website.
   - Fix horizontal scrolling bug of the list of privata messages.
   - Add more whitespace to the edge of timestamp.
 
-
 Also available from [userstyles.org](https://userstyles.org/styles/134753/meetup-cleanup).
-
 
 ## Version history
 
 ### Version 0.1 (2016-11-04)
+
 - First release.

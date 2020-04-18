@@ -13,8 +13,8 @@
   - Hide broken elements from the print version.
   - Darker article text color to improve readability.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-07)
+
 - First release.

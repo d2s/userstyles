@@ -9,8 +9,8 @@
   - Increase padding for larger screens.
   - Reduce padding on smaller screens.
 
-
 ## Version history
 
 ### Version 0.1 (2016-11-12)
+
 - First release.

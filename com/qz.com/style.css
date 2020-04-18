@@ -1,20 +1,18 @@
 @-moz-document domain("qz.com") {
+  /* - Hide top marquee element. */
+  #marquee {
+    display: none !important;
+  }
 
-/* - Hide top marquee element. */
-#marquee {
-  display: none !important;
-}
+  /* - Remove unneeded top whitespace for header element, after marquee had been removed. */
+  .has-marquee #header.header-fixed,
+  .has-marquee #header.header-fixed.transparent {
+    top: 0 !important;
+    position: relative;
+  }
 
-/* - Remove unneeded top whitespace for header element, after marquee had been removed. */
-.has-marquee #header.header-fixed,
-.has-marquee #header.header-fixed.transparent  {
-  top: 0 !important;
-  position: relative;
-}
-
-/* - Hide social sharing buttons. */
-.share-buttons {
-  display: none;
-}
-
+  /* - Hide social sharing buttons. */
+  .share-buttons {
+    display: none;
+  }
 }

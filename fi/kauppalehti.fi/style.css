@@ -1,18 +1,18 @@
 @-moz-document domain("kauppalehti.fi") {
-/* - Hide CTA / article promotion elements. */
-.teaser.teaser--og.teaser__og--lead,
-.teaser.teaser--og.teaser__mm--promo,
-.app-store-badges {
-	display: none;
-}
+  /* - Hide CTA / article promotion elements. */
+  .teaser.teaser--og.teaser__og--lead,
+  .teaser.teaser--og.teaser__mm--promo,
+  .app-store-badges {
+    display: none;
+  }
 
-/* - Hide promotion elements of the other publications of Alma. */
-.footer__group {
-	display: none;
-}
+  /* - Hide promotion elements of the other publications of Alma. */
+  .footer__group {
+    display: none;
+  }
 
-/* - Hide social media sharing buttons. */
-.some-header,
+  /* - Hide social media sharing buttons. */
+  .some-header,
 .some__article,
 .some__article--footer,
 .button.button__follow,
@@ -21,13 +21,13 @@
 .feed__facebook,
 .feed__twitter,
 a[href="https://facebook.com/kauppalehti.fi"],
-a[href="https://twitter.com/KauppalehtiFi"] {
-	display: none;
-}
+a[href="https://twitter.com/KauppalehtiFi"]
+  {
+    display: none;
+  }
 
-/* - Hide advertising content sections. */
-.article__adverts {
-	display: none;
-}
-
+  /* - Hide advertising content sections. */
+  .article__adverts {
+    display: none;
+  }
 }

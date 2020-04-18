@@ -1,48 +1,49 @@
 @-moz-document domain("igda.fi") {
+  /* - Improve readability: */
+  /*   - Make text visible by setting black text color. */
+  /*   - Make text visible by increasing font weight. */
+  body,
+  p,
+  ul,
+  ol,
+  button,
+  input,
+  select,
+  textarea {
+    color: #000;
+    font-weight: 400;
+  }
 
-/* - Improve readability: */
-/*   - Make text visible by setting black text color. */
-/*   - Make text visible by increasing font weight. */
-body, p, ul, ol, button, input, select, textarea {
-	color: #000;
-  font-weight: 400;
-}
+  /* - Improve readability: */
+  /*   - Make text visible by setting black text color. */
+  #main-navigation a:link,
+  #main-navigation a:visited {
+    color: #000 !important;
+  }
 
+  /* - Improve readability: */
+  /*   - Make text visible by adding background shadow. */
+  h1#page-title {
+    text-shadow: 0 0 40px #000000;
+  }
 
-/* - Improve readability: */
-/*   - Make text visible by setting black text color. */
-#main-navigation a:link,
-#main-navigation a:visited {
-	color: #000 !important;
-}
+  /* - Improve readability: */
+  /*   - Make text visible by increasing font weight. */
+  /*   - Increase visual hierarcy of page elements by increasing font weight. */
+  h1.eventitem-title,
+  h1:not(#site-title):not(#page-title),
+  h2 {
+    font-weight: 500 !important;
+  }
 
-
-/* - Improve readability: */
-/*   - Make text visible by adding background shadow. */
-h1#page-title {
-	text-shadow: 0 0 40px #000000;
-}
-
-
-/* - Improve readability: */
-/*   - Make text visible by increasing font weight. */
-/*   - Increase visual hierarcy of page elements by increasing font weight. */
-h1.eventitem-title,
-h1:not(#site-title):not(#page-title),
-h2 {
-  font-weight: 500 !important;
-}
-
-
-/* - Improve readability and reduce distractions: */
-/*   - Change color to grayscale. */
-#page-body-wrapper h2,
-#page-footer-wrapper h2,
-#page-body-wrapper h2 a:link,
-#page-footer-wrapper h2 a:link,
-#page-body-wrapper h2 a:visited,
-#page-footer-wrapper h2 a:visited {
-	color: #333;
-}
-
+  /* - Improve readability and reduce distractions: */
+  /*   - Change color to grayscale. */
+  #page-body-wrapper h2,
+  #page-footer-wrapper h2,
+  #page-body-wrapper h2 a:link,
+  #page-footer-wrapper h2 a:link,
+  #page-body-wrapper h2 a:visited,
+  #page-footer-wrapper h2 a:visited {
+    color: #333;
+  }
 }

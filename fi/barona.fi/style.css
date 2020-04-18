@@ -1,79 +1,76 @@
 @-moz-document domain("barona.fi") {
-/* - Add darker background color. */
-body {
+  /* - Add darker background color. */
+  body {
     background-color: #ddd;
-}
+  }
 
-/* - Make front page intro header text readable.  */
-.fp-intro-wrapper h1,
-.fp-intro-wrapper p,
-.fp-intro-wrapper a,
-.fp-intro-wrapper .link-button a {
-	color: black;
-}
+  /* - Make front page intro header text readable.  */
+  .fp-intro-wrapper h1,
+  .fp-intro-wrapper p,
+  .fp-intro-wrapper a,
+  .fp-intro-wrapper .link-button a {
+    color: black;
+  }
 
-/* - Adjust link button styles. */
-.link-button.outside a {
-	background: #777;
-	border-color: #777;
+  /* - Adjust link button styles. */
+  .link-button.outside a {
+    background: #777;
+    border-color: #777;
     color: #fff;
     font-weight: normal;
     /* letter-spacing: 1px; */
-}
+  }
 
-/* - Adjust link button hover styles. */
-.link-button.outside a:hover {
+  /* - Adjust link button hover styles. */
+  .link-button.outside a:hover {
     color: #000;
     border-color: #000;
-}
+  }
 
+  /* - Modify border color of link buttons. */
+  /* - Modify background color of link buttons. */
+  .link-button.nega a {
+    border-color: black;
+    background-color: rgba(214, 214, 214, 0.3);
+  }
 
-/* - Modify border color of link buttons. */
-/* - Modify background color of link buttons. */
-.link-button.nega a {
-	border-color: black;
-	background-color: rgba(214,214,214,0.3);
-}
-
-
-
-/* - Make the hero header section more readable. */
-/* - Reduce hero header element height. */
-/* - Add padding to the bottom of hero element. */
-section.hero.search-hero {
+  /* - Make the hero header section more readable. */
+  /* - Reduce hero header element height. */
+  /* - Add padding to the bottom of hero element. */
+  section.hero.search-hero {
     background-image: none !important;
     background-color: #444;
     min-height: 0;
     padding-bottom: 20px;
-}
+  }
 
-/* - Make small text readable. */
-/* - Reduce border color brightness. */
-.search-hero .choose-all a,
-.search-hero.filter {
+  /* - Make small text readable. */
+  /* - Reduce border color brightness. */
+  .search-hero .choose-all a,
+  .search-hero.filter {
     font-weight: normal !important;
     font-size: 16px !important;
     border: 1px solid #888 !important;
-}
+  }
 
-/* - Make category tags readable. */
-.category,
-.tag {
+  /* - Make category tags readable. */
+  .category,
+  .tag {
     color: #fff;
     background-color: #222;
     font-weight: normal;
-}
+  }
 
-/* - Hide social sharing buttons (Simple Share Buttons Plus). */
-.ssbp-wrap {
+  /* - Hide social sharing buttons (Simple Share Buttons Plus). */
+  .ssbp-wrap {
     display: none;
-}
+  }
 
-/* - Fix too wide layout positioning for the element. */
-@media screen and (min-width: 974px) {
-    .author-information, .employer-information {
-        right: 0;
+  /* - Fix too wide layout positioning for the element. */
+  @media screen and (min-width: 974px) {
+    .author-information,
+    .employer-information {
+      right: 0;
     }
-}
-
+  }
 }

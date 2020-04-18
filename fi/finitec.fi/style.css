@@ -1,13 +1,12 @@
 @-moz-document domain("finitec.fi") {
-/* - Hide header photos. */
-#home-wide-img,
-#sub-wide-img {
-  display: none;
-}
+  /* - Hide header photos. */
+  #home-wide-img,
+  #sub-wide-img {
+    display: none;
+  }
 
-/* - Move content section down to make it visible again. */
-body {
-  padding-top: 60px;
-}
-
+  /* - Move content section down to make it visible again. */
+  body {
+    padding-top: 60px;
+  }
 }

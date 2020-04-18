@@ -1,31 +1,27 @@
 @-moz-document domain("customwire.ap.org") {
-/* - Increase text size of the articles to make it readable. */
-p.ap-story-p {
-	font-size: 20px;
-	line-height: 26px;
-}
+  /* - Increase text size of the articles to make it readable. */
+  p.ap-story-p {
+    font-size: 20px;
+    line-height: 26px;
+  }
 
-/* - Hide CTA elements from sidebar. */
-/* - Hide sidebar. */
-#ap-new-widgets,
-#right_rail {
-	display: none;
-}
+  /* - Hide CTA elements from sidebar. */
+  /* - Hide sidebar. */
+  #ap-new-widgets,
+  #right_rail {
+    display: none;
+  }
 
-/* - Increase article width. */
-#page_content,
-table.ap-story-table {
-	width: 95%;
-}
+  /* - Increase article width. */
+  #page_content,
+  table.ap-story-table {
+    width: 95%;
+  }
 
-
-
-@media print {
-
-/* - Reduce article width on a printed page version. */
-table.ap-story-table {
-	width: 700px;
-}
-
-}
+  @media print {
+    /* - Reduce article width on a printed page version. */
+    table.ap-story-table {
+      width: 700px;
+    }
+  }
 }

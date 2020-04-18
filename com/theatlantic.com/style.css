@@ -1,20 +1,20 @@
 @-moz-document domain("www.theatlantic.com") {
-/* - Hide social sharing buttons. */
-.social-kit-top,
-.btn.btn--social.btn--facebook,
-.btn.btn--social.btn--twitter {
-	display: none;
-}
-
-/* - Hide CTA elements. */
-.injector-promo,
-#site-footer .subscribe,
-#site-footer section.follow {
+  /* - Hide social sharing buttons. */
+  .social-kit-top,
+  .btn.btn--social.btn--facebook,
+  .btn.btn--social.btn--twitter {
     display: none;
-}
+  }
 
-/* - Hide more ads. */
-.partner-box {
+  /* - Hide CTA elements. */
+  .injector-promo,
+  #site-footer .subscribe,
+  #site-footer section.follow {
     display: none;
-}
+  }
+
+  /* - Hide more ads. */
+  .partner-box {
+    display: none;
+  }
 }

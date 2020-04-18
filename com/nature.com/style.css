@@ -1,30 +1,28 @@
 @-moz-document domain("www.nature.com") {
-/* - Hide empty ad containers. */
-#leaderboard {
+  /* - Hide empty ad containers. */
+  #leaderboard {
     display: none;
-}
+  }
 
-/* - Hide social sharing widgets. */
-.fb-like,
-.fb_iframe_widget,
-#social-media-section .email,
-#social-media-section .facebook,
-#social-media-section .twitter {
+  /* - Hide social sharing widgets. */
+  .fb-like,
+  .fb_iframe_widget,
+  #social-media-section .email,
+  #social-media-section .facebook,
+  #social-media-section .twitter {
     display: none;
-}
+  }
 
+  @media print {
+    /* - Hide news carousel from printed pages. */
+    .carousel.news-carousel {
+      display: none;
+    }
 
-@media print {
-
-/* - Hide news carousel from printed pages. */
-.carousel.news-carousel {
-    display: none;
-}
-
-/* - Hide "Subscribe to comments" link from printed pages. */
-a[href*="https://naturenews.disqus.com/"] {
-    display: none;
-}
-
-}
+    /* - Hide "Subscribe to comments" link from printed pages. */
+    a[href*="https://naturenews.disqus.com/"]
+    {
+      display: none;
+    }
+  }
 }

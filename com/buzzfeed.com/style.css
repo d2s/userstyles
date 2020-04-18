@@ -1,53 +1,50 @@
 @-moz-document domain("buzzfeed.com") {
-/* - Hide social sharing buttons. */
-#share_control,
-.bottom_shares,
-.connect-widget,
-.EmailSignup.newsletter-subscribe {
-	display: none;
-}
+  /* - Hide social sharing buttons. */
+  #share_control,
+  .bottom_shares,
+  .connect-widget,
+  .EmailSignup.newsletter-subscribe {
+    display: none;
+  }
 
-/* - Reduce opacity of the trending badge to reduce distractions. */
-.trending-badge {
-	opacity: 0.2;
-}
+  /* - Reduce opacity of the trending badge to reduce distractions. */
+  .trending-badge {
+    opacity: 0.2;
+  }
 
-/* - Reduce page header size. */
-.page-header__content {
-	padding: 10px 20px 4px;
-}
+  /* - Reduce page header size. */
+  .page-header__content {
+    padding: 10px 20px 4px;
+  }
 
-/* - Adjust top navigation background color. */
-.page-nav {
-	background: inherit;
-}
+  /* - Adjust top navigation background color. */
+  .page-nav {
+    background: inherit;
+  }
 
-/* - Hide CTA elements */
-#new-header-hot-nav,
-#next_on,
-.lower-infinite-content {
-	display: none;
-}
+  /* - Hide CTA elements */
+  #new-header-hot-nav,
+  #next_on,
+  .lower-infinite-content {
+    display: none;
+  }
 
-/* - Increase main content area width to reduce distractions. */
-.Content {
-	width: 100%;
-}
+  /* - Increase main content area width to reduce distractions. */
+  .Content {
+    width: 100%;
+  }
 
-/* - Adjust footer background color. */
-footer {
-	background: inherit !important;
-}
+  /* - Adjust footer background color. */
+  footer {
+    background: inherit !important;
+  }
 
-
-/* - Reduce distractions from printed articles. */
-@media print {
-
-.page-nav,
-.Column2,
-#new-header-hot-nav {
-	display: none;
-}
-
-}
+  /* - Reduce distractions from printed articles. */
+  @media print {
+    .page-nav,
+    .Column2,
+    #new-header-hot-nav {
+      display: none;
+    }
+  }
 }

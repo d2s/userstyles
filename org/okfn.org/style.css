@@ -1,10 +1,9 @@
 @-moz-document domain("fi.okfn.org") {
-
-/* - Adjust events calendar width to the sidebar width. */
-iframe[src*="https://www.google.com/calendar/embed"] {
+  /* - Adjust events calendar width to the sidebar width. */
+  iframe[src*="https://www.google.com/calendar/embed"]
+  {
     width: 100%;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 6px;
-}
-
+  }
 }

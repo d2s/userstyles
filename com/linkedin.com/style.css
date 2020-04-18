@@ -1,192 +1,174 @@
 @-moz-document domain("linkedin.com") {
+  /* - Adjust site background color. */
+  body {
+    background: #eee;
+  }
 
-/* - Adjust site background color. */
-body {
-  background: #eee;
-}
+  /* - Adjust profile card header. */
+  .profile-top-card.top-card {
+    margin-bottom: 0;
+  }
 
-/* - Adjust profile card header. */
-.profile-top-card.top-card {
-  margin-bottom: 0;
-}
+  /* - Adjust profile content areas. */
+  .profile-background,
+  #connections.profile-connections,
+  #groups-container,
+  #groups,
+  #following-container,
+  .profile-following,
+  #aux {
+    margin: 0;
+    border-top: 1px solid #eee;
+  }
 
-/* - Adjust profile content areas. */
-.profile-background,
-#connections.profile-connections,
-#groups-container,
-#groups,
-#following-container,
-.profile-following,
-#aux {
-  margin: 0;
-  border-top: 1px solid #eee;
-}
+  /* - Reduce top margin of profile header card. */
+  .profile-card.vcard .profile-picture,
+  .profile-card.vcard .profile-overview {
+    margin: 0;
+    padding-bottom: 0;
+  }
 
-/* - Reduce top margin of profile header card. */
-.profile-card.vcard .profile-picture,
-.profile-card.vcard .profile-overview {
-  margin: 0;
-  padding-bottom: 0;
-}
+  /* - Reduce text content height of profile header card. */
+  .profile-card .profile-overview-content {
+    min-height: 130px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
 
-/* - Reduce text content height of profile header card. */
-.profile-card .profile-overview-content {
-  min-height: 130px;
-  padding-top: 10px;
-  padding-bottom: 15px;
-}
-
-
-
-
-/* - Clean up front page feed updates. */
-#hp-promo-abk-social,
-.feed-update.company-share-article.is-sponsored,
-.feed-update.member-people-follow-member.has-snippets,
-.feed-update.member-follow-company.has-snippets,
-.feed-update.people-follow-recommend.has-snippets,
-.feed-update.people-connect-recommend.has-snippets,
-.feed-update.pulse-recommend-article-rollup.has-snippets,
-.feed-update.many-members-connect-members-rollup.has-snippets,
-.feed-update.lyndaCourse-singleton.has-snippets,
-.feed-update.member-join-group.has-snippets,
-.feed-update.member-like-poncho-post.has-snippets,
-.feed-update.member-like-share.has-snippets,
-.feed-update.member-like-discussion.has-snippets,
-.feed-update.member-post-discussion.has-snippets,
-.feed-update.member-comment-share.has-snippets {
-	display: none;
-}
-
-
-
-/* - Hide ad containers. */
-#topTextAd,
-#ad-right-top,
-.wvmp-upsell,
-#right-rail-upsell-below,
-#ad-container,
-.text-ad-container,
-#text-ad-container,
-#course-recommendations,
-.footer-upgrade-link {
-	display: none !important;
-}
-
-/* - Hide ‘recommended users’ CTA area. */
-.engagement-list {
-	display: none !important;
-}
-
-
-/* - Clean up sidebar from unneeded page elements. */
-#sidebar-footer-container {
-	display: none;
-}
-
-/* - Hide links to the products page. */
-a[href*="/premium/products"] {
-	display: none !important;
-}
-
-
-/* - Hide profile strength indicator from sidebar. */
-.insights .strength {
-	display: none;
-}
-
-
-/* - Make width of contacts list page wider. */
-#contact-list-container {
-	width: 100%;
-}
-
-
-/* - Hide ‘People you might know” widget from sidebar. */
-#pymk-container {
-	display: none;
-}
-
-/* - Reduce whitespace from job postings. */
-.content-container > .container {
-	margin-top: 10px !important;
-}
-
-/* - Expand job description automatically. */
-.description-module {
-	height: auto !important;
-}
-
-/* - Hide ‘Read full job description’ button. */
-#job-details-reveal {
+  /* - Clean up front page feed updates. */
+  #hp-promo-abk-social,
+  .feed-update.company-share-article.is-sponsored,
+  .feed-update.member-people-follow-member.has-snippets,
+  .feed-update.member-follow-company.has-snippets,
+  .feed-update.people-follow-recommend.has-snippets,
+  .feed-update.people-connect-recommend.has-snippets,
+  .feed-update.pulse-recommend-article-rollup.has-snippets,
+  .feed-update.many-members-connect-members-rollup.has-snippets,
+  .feed-update.lyndaCourse-singleton.has-snippets,
+  .feed-update.member-join-group.has-snippets,
+  .feed-update.member-like-poncho-post.has-snippets,
+  .feed-update.member-like-share.has-snippets,
+  .feed-update.member-like-discussion.has-snippets,
+  .feed-update.member-post-discussion.has-snippets,
+  .feed-update.member-comment-share.has-snippets {
     display: none;
-}
+  }
 
-/* - Hide social sharing buttons. */
-#neo-share-button {
+  /* - Hide ad containers. */
+  #topTextAd,
+  #ad-right-top,
+  .wvmp-upsell,
+  #right-rail-upsell-below,
+  #ad-container,
+  .text-ad-container,
+  #text-ad-container,
+  #course-recommendations,
+  .footer-upgrade-link {
+    display: none !important;
+  }
+
+  /* - Hide ‘recommended users’ CTA area. */
+  .engagement-list {
+    display: none !important;
+  }
+
+  /* - Clean up sidebar from unneeded page elements. */
+  #sidebar-footer-container {
     display: none;
-}
+  }
 
+  /* - Hide links to the products page. */
+  a[href*="/premium/products"] {
+    display: none !important;
+  }
 
-/* - Hide header background image. */
-#hero-image {
-	display: none;
-}
+  /* - Hide profile strength indicator from sidebar. */
+  .insights .strength {
+    display: none;
+  }
 
+  /* - Make width of contacts list page wider. */
+  #contact-list-container {
+    width: 100%;
+  }
 
-/* - Adjust page content width. */
-#main {
-	width: 100%;
-}
+  /* - Hide ‘People you might know” widget from sidebar. */
+  #pymk-container {
+    display: none;
+  }
 
-/*
+  /* - Reduce whitespace from job postings. */
+  .content-container > .container {
+    margin-top: 10px !important;
+  }
+
+  /* - Expand job description automatically. */
+  .description-module {
+    height: auto !important;
+  }
+
+  /* - Hide ‘Read full job description’ button. */
+  #job-details-reveal {
+    display: none;
+  }
+
+  /* - Hide social sharing buttons. */
+  #neo-share-button {
+    display: none;
+  }
+
+  /* - Hide header background image. */
+  #hero-image {
+    display: none;
+  }
+
+  /* - Adjust page content width. */
+  #main {
+    width: 100%;
+  }
+
+  /*
 #main.share-box-buttons .left-container .content {}
 */
 
-/* - Improve readability of the feed. */
-.feed-update .headline {
+  /* - Improve readability of the feed. */
+  .feed-update .headline {
     font-size: 16px;
-}
+  }
 
-/* - Make things readable. */
-em {
-	font-style: normal;
-}
+  /* - Make things readable. */
+  em {
+    font-style: normal;
+  }
 
-/* - Move content area so that it would not get hidden by the top menu. */
-div#wrapper {
+  /* - Move content area so that it would not get hidden by the top menu. */
+  div#wrapper {
     margin-top: 80px;
-}
+  }
 
+  /* - Adjust profile page width. */
+  /* - Adjust profile sidebar width. */
+  div#profile,
+  div#aux {
+    width: 100%;
+  }
 
-/* - Adjust profile page width. */
-/* - Adjust profile sidebar width. */
-div#profile,
-div#aux {
-	width: 100%
-}
-
-/* - Adjust profile sidebar widgets. */
-.insights-browse-map li,
-.insights-ctx-profiles li {
+  /* - Adjust profile sidebar widgets. */
+  .insights-browse-map li,
+  .insights-ctx-profiles li {
     display: inline-block;
     min-width: 350px;
-}
-
-
-@media print {
-
-  /* - Hide top navigation for printed pages. */
-  #header {
-    display: none;
   }
 
+  @media print {
+    /* - Hide top navigation for printed pages. */
+    #header {
+      display: none;
+    }
 
-  /* - Adjust content area top margin for printed pages. */
-  div#wrapper {
-    margin-top: 30px;
+    /* - Adjust content area top margin for printed pages. */
+    div#wrapper {
+      margin-top: 30px;
+    }
   }
-
-}
-
 }

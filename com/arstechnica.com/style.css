@@ -1,27 +1,25 @@
 @-moz-document domain("arstechnica.com") {
+  /* - Hide empty ad containers. */
+  .xrail,
+  .ad_xrail {
+    display: none !important;
+  }
 
-/* - Hide empty ad containers. */
-.xrail,
-.ad_xrail {
-  display: none !important;
-}
+  /* - Hide social sharing buttons. */
+  .share-links {
+    display: none !important;
+  }
 
-/* - Hide social sharing buttons. */
-.share-links {
-  display: none !important;
-}
+  /* - Increase article content width. */
+  article .left-column {
+    width: 89% !important;
+  }
 
-/* - Increase article content width. */
-article .left-column {
-  width: 89% !important;
-}
-
-/* - Reduce article content text width. */
-/* - Increase article text size and line height. */
-.article-single p {
-  max-width: 42em;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
+  /* - Reduce article content text width. */
+  /* - Increase article text size and line height. */
+  .article-single p {
+    max-width: 42em;
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }

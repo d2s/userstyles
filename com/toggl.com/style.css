@@ -1,5 +1,5 @@
 @-moz-document domain("toggl.com") {
-#badge-notifications {
+  #badge-notifications {
     display: none;
-}
+  }
 }

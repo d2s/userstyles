@@ -1,48 +1,47 @@
 @-moz-document domain("dailymail.co.uk") {
-/* - Hide social sharing buttons. */
-.dms-puff,
-.page-header .supplements,
-#articleIconLinksContainer,
-.related-carousel.with-fb.news,
-.button-share-facebook,
-.shareArticles,
-.article-icon-links {
-	display: none !important;
-}
+  /* - Hide social sharing buttons. */
+  .dms-puff,
+  .page-header .supplements,
+  #articleIconLinksContainer,
+  .related-carousel.with-fb.news,
+  .button-share-facebook,
+  .shareArticles,
+  .article-icon-links {
+    display: none !important;
+  }
 
-/* - Hide recommended articles. */
-.puff,
-.automated_tabbed_headlines_thumbs_wrapper,
-.automated_tabbed_headlines_wrapper,
-.beta .tvshowbiz,
-#most-watched-videos,
-#infinite-list,
-.video.video_carousel_container {
-	display: none !important;
-}
+  /* - Hide recommended articles. */
+  .puff,
+  .automated_tabbed_headlines_thumbs_wrapper,
+  .automated_tabbed_headlines_wrapper,
+  .beta .tvshowbiz,
+  #most-watched-videos,
+  #infinite-list,
+  .video.video_carousel_container {
+    display: none !important;
+  }
 
-/* - Clean up commenting area. */
-#reader-comments,
-.topcommenter {
-	display: none !important;
-}
+  /* - Clean up commenting area. */
+  #reader-comments,
+  .topcommenter {
+    display: none !important;
+  }
 
-/* - Hide CTA buttons. */
-.back-to-home.new-articles,
-.rss_feeds_buttons_wrapper {
-	display: none !important;
-}
+  /* - Hide CTA buttons. */
+  .back-to-home.new-articles,
+  .rss_feeds_buttons_wrapper {
+    display: none !important;
+  }
 
+  /* - Hide site search widget from sidebar. */
+  .item.beta_search_wrapper {
+    display: none !important;
+  }
 
-/* - Hide site search widget from sidebar. */
-.item.beta_search_wrapper {
-	display: none !important;
-}
-
-/* - Hide more ads. */
-a[href*="discountcode.dailymail.co.uk"],
-a[href*="https://www.facebook.com/DailyMail"] {
-	display: none !important;
-}
-
+  /* - Hide more ads. */
+  a[href*="discountcode.dailymail.co.uk"],
+  a[href*="https://www.facebook.com/DailyMail"]
+  {
+    display: none !important;
+  }
 }

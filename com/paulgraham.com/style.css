@@ -1,20 +1,20 @@
 @-moz-document domain("paulgraham.com") {
-/* Based on: https://userstyles.org/styles/1149/paulgraham-com-readability */
+  /* Based on: https://userstyles.org/styles/1149/paulgraham-com-readability */
 
-body {
+  body {
     background-image: none;
     background-color: #f5f5f5 !important;
-}
-table[width] {
+  }
+  table[width] {
     width: 90% !important;
     max-width: 44em;
-}
-table[width] > tbody > tr > td {
+  }
+  table[width] > tbody > tr > td {
     width: 100% !important;
     text-align: justify;
     line-height: 1.8em;
-}
-table[width] font {
+  }
+  table[width] font {
     font-size: 16px;
-}
+  }
 }

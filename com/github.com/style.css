@@ -1,15 +1,13 @@
 @-moz-document domain("github.com") {
-
-/* - Improve readability of the code. */
-.blob-wrapper.data {
+  /* - Improve readability of the code. */
+  .blob-wrapper.data {
     padding: 1em 0;
-}
+  }
 
-/* - Improve readability of the code. */
-.blob-code-inner {
+  /* - Improve readability of the code. */
+  .blob-code-inner {
     font-weight: normal;
     font-size: 15px;
     line-height: 1.4;
-}
-
+  }
 }

@@ -1,15 +1,14 @@
 @-moz-document domain("beta.hemingwayapp.com") {
-/* - Improve readability of the tool. */
-.hemingway-editor-draft-container {
+  /* - Improve readability of the tool. */
+  .hemingway-editor-draft-container {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.5em;
-}
+  }
 
-/* - Hide social sharing widgets. */
-iframe[src*="facebook.com"],
-iframe[src*="twitter.com"] {
+  /* - Hide social sharing widgets. */
+  iframe[src*="facebook.com"],
+  iframe[src*="twitter.com"] {
     display: none !important;
-}
-
+  }
 }

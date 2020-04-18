@@ -1,20 +1,20 @@
 @-moz-document domain("twitter.com") {
-.Footer {
+  .Footer {
     opacity: 0.5;
-}
+  }
 
-.Footer-adsModule {
+  .Footer-adsModule {
     display: none !important;
-}
+  }
 
-/* "Find people you follow" module */
-.flex-module.import-prompt {
+  /* "Find people you follow" module */
+  .flex-module.import-prompt {
     display: none !important;
-}
+  }
 
-/* "Who to follow" module */
-.wtf-module,
-.WhoToFollow {
+  /* "Who to follow" module */
+  .wtf-module,
+  .WhoToFollow {
     display: none !important;
-}
+  }
 }

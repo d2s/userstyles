@@ -1,36 +1,31 @@
 @-moz-document domain("sonera.fi") {
+  /* - Hide social sharing widgets. */
+  .share-follow {
+    display: none;
+  }
 
-/* - Hide social sharing widgets. */
-.share-follow {
-  display: none;
-}
+  /* - Custom print styles for improving readability of the content. */
+  @media print {
+    /* - Hide navigation containers from print version. */
+    .nav-container,
+    .sub-nav {
+      display: none;
+    }
 
+    /* - Hide feedback widget from print version. */
+    .feedback {
+      display: none;
+    }
 
-/* - Custom print styles for improving readability of the content. */
-@media print {
+    /* - Collapse empty space from top of printed pages. */
+    .main-container {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
 
-/* - Hide navigation containers from print version. */
-.nav-container,
-.sub-nav {
-  display: none;
-}
-
-/* - Hide feedback widget from print version. */
-.feedback {
-  display: none;
-}
-
-/* - Collapse empty space from top of printed pages. */
-.main-container {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* - Hide page footer from print version. */
-footer.page-footer-wrapper {
-  display: none;
-}
-
-}
-
+    /* - Hide page footer from print version. */
+    footer.page-footer-wrapper {
+      display: none;
+    }
+  }
 }

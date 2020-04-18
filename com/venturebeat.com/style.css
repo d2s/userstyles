@@ -1,21 +1,20 @@
 @-moz-document domain("venturebeat.com") {
-/* - Hide social sharing buttons. */
-.social-shares,
-.facebook.social,
-.twitter.social,
-.google-plus.social,
-.linked-in.social {
-	display: none !important;
-}
+  /* - Hide social sharing buttons. */
+  .social-shares,
+  .facebook.social,
+  .twitter.social,
+  .google-plus.social,
+  .linked-in.social {
+    display: none !important;
+  }
 
+  /* Hide ‘latest news’ widget from sidebar. */
+  #secondary .vb_widget {
+    display: none;
+  }
 
-/* Hide ‘latest news’ widget from sidebar. */
-#secondary .vb_widget {
-	display: none;
-}
-
-/* Hide ‘Get more stories like this’ from bottom of articles */
-.post-boilerplate.boilerplate-after {
-	display: none;
-}
+  /* Hide ‘Get more stories like this’ from bottom of articles */
+  .post-boilerplate.boilerplate-after {
+    display: none;
+  }
 }

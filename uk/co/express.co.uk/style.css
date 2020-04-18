@@ -1,61 +1,59 @@
 @-moz-document domain("www.express.co.uk") {
-/* - Hide social media sharing buttons. */
-.social-media-buttons,
-.fb-page,
-.shares .icons {
-	display: none;
-}
+  /* - Hide social media sharing buttons. */
+  .social-media-buttons,
+  .fb-page,
+  .shares .icons {
+    display: none;
+  }
 
-/* - Hide sidebar elements. */
-.box.latestvideos,
-.box.news {
-	display: none;
-}
+  /* - Hide sidebar elements. */
+  .box.latestvideos,
+  .box.news {
+    display: none;
+  }
 
-/* - Hide sidebar completelely. */
-aside.right-column {
-	display: none;
-}
+  /* - Hide sidebar completelely. */
+  aside.right-column {
+    display: none;
+  }
 
-/* - Increase article width to make it readable. */
-#singleArticle {
-    width: 100%
-}
+  /* - Increase article width to make it readable. */
+  #singleArticle {
+    width: 100%;
+  }
 
-/* - Hide empty elements. */
-.superbanner,
-#gigyacomments {
-	display: none;
-}
+  /* - Hide empty elements. */
+  .superbanner,
+  #gigyacomments {
+    display: none;
+  }
 
-/* - Increase article text size to improve readability. */
-/* - Darker article text color to improve readability. */
-.recipe .instructions p,
-.single-article > div,
-.single-article > div .pull-quote > div > p,
-.single-article > div section.text-description,
-.single-article > div> p,
-.single-article > div > section > p {
+  /* - Increase article text size to improve readability. */
+  /* - Darker article text color to improve readability. */
+  .recipe .instructions p,
+  .single-article > div,
+  .single-article > div .pull-quote > div > p,
+  .single-article > div section.text-description,
+  .single-article > div > p,
+  .single-article > div > section > p {
     font-size: 16px;
     line-height: 22px;
     color: #111;
-}
-
-/* - Reduce top header size. */
-.container {
-	padding-top: 0;
-}
-
-.container > header {
-	border-top: 0;
-}
-
-
-/* - Hide broken elements from the print version. */
-@media print {
-  .two-related-articles {
-  	display: none;
   }
-}
 
+  /* - Reduce top header size. */
+  .container {
+    padding-top: 0;
+  }
+
+  .container > header {
+    border-top: 0;
+  }
+
+  /* - Hide broken elements from the print version. */
+  @media print {
+    .two-related-articles {
+      display: none;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 @-moz-document domain("last.fm") {
-.subscribe-cta {
-	display: none !important;
-}
+  .subscribe-cta {
+    display: none !important;
+  }
 }

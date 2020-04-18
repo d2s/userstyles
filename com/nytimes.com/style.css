@@ -1,6 +1,6 @@
 @-moz-document domain("nytimes.com") {
-.sharetool,
-.subscribe-button {
+  .sharetool,
+  .subscribe-button {
     display: none !important;
-}
+  }
 }

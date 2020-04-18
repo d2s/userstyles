@@ -1,8 +1,6 @@
 @-moz-document domain("play.spotify.com") {
-
-/* - Hide CTA elements. */
-.upsell-background {
-  display: none !important;
-}
-
+  /* - Hide CTA elements. */
+  .upsell-background {
+    display: none !important;
+  }
 }

@@ -1,21 +1,20 @@
 @-moz-document domain("suomenkuvalehti.fi") {
-/* - Hide footer link section to other online services of the same publisher */
-#verkkopalvelut {
+  /* - Hide footer link section to other online services of the same publisher */
+  #verkkopalvelut {
     display: none;
-}
+  }
 
-/* - Hide recommended articles section. */
-.article-footer-wrapper #recommended {
+  /* - Hide recommended articles section. */
+  .article-footer-wrapper #recommended {
     display: none;
-}
+  }
 
-/* - Switch red background color to black to reduce distractions. */
-.navi__magazine {
+  /* - Switch red background color to black to reduce distractions. */
+  .navi__magazine {
     background-color: #000;
-}
+  }
 
-@media print {
-
+  @media print {
     /* - Hide page elements to improve printed page layout. */
     #topbar,
     #sitewide-searchbar-container,
@@ -28,14 +27,12 @@
     a[href="http://suomenkuvalehti.fi/rekisteroidy/"],
     a[href*="http://suomenkuvalehti.fi/kirjaudu/"],
     p[content="Pääset kommentoimaan juttua kun olet kirjautunut."] {
-        display: none !important;
+      display: none !important;
     }
 
     /* - Modify content width to full page width to make it more readable. */
     .article.col-two {
-        width: 100%;
+      width: 100%;
     }
-
-}
-
+  }
 }

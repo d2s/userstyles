@@ -1,7 +1,7 @@
 @-moz-document domain("nyt.fi") {
-.social.original-placeholder,
-.cb-container,
-#next-teaser {
-  display: none !important;
-}
+  .social.original-placeholder,
+  .cb-container,
+  #next-teaser {
+    display: none !important;
+  }
 }
